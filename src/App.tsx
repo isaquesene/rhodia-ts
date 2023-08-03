@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className='app'>
-      App
+      Rhodia Page
     </div>
   )
 }
