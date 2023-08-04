@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
 module.exports = {
   content: [
     "./index.html", 
@@ -13,7 +14,9 @@ module.exports = {
         "gray-500": "#5E0000",
         "primary-100": "#FFE1E0",
         "primary-300": "#FFA6A3",
+        "primary-301": "#F9BC43",
         "primary-500": "#FF6B66",
+        "primary-501": "#475F40",
         "secondary-400": "#FFCD5B",
         "secondary-500": "#FFC132",
       },
