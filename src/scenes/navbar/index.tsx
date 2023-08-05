@@ -1,13 +1,14 @@
 import React from 'react'
 
-import { Bars3Icon, XMarkIcon} from "@heroicons/react/24/solid";
+/* import { Bars3Icon, XMarkIcon} from "@heroicons/react/24/solid"; */
 import Link from './Link';
+import { SelectedPage } from '@/shared/types';
 
 /* import Logo from "@/assets/samaritano.png"; */
 
 type Props = {
-    selectedPage: string;
-    setSelectedPage: (value: string) => void;
+    selectedPage: SelectedPage;
+    setSelectedPage: (value: SelectedPage) => void;
 };
 
 const Navbar = ({selectedPage, setSelectedPage}: Props) => {
